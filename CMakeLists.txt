@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.26)
-project(encryptionAndDecryption C)
+project(cryptoSphere C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(encryptionAndDecryption main.c
+add_executable(cryptoSphere main.c
         caesar/caesar_cipher.c
         caesar/caesar_decipher.c
         vigenere/vigenere_cipher.c
