@@ -1,0 +1,21 @@
+#ifndef ENCRYPTIONANDDECRYPTION_ENCRYPTION_H
+#define ENCRYPTIONANDDECRYPTION_ENCRYPTION_H
+
+#include "constants.h"
+
+typedef enum {
+    CIPHER_TYPE_CAESAR,
+    CIPHER_TYPE_VIGENERE,
+    CIPHER_TYPE_SUBSTITUTION,
+    CIPHER_TYPE_XOR,
+    CIPHER_TYPE_RAIL_FENCE,
+    CIPHER_TYPE_AES,
+    CIPHER_TYPE_ENCRYPT,
+    CIPHER_TYPE_DECRYPT
+} CipherType;
+
+typedef struct {
+    char key[MAX_KEY_LENGTH];
+} CipherKey;
+
+#endif
