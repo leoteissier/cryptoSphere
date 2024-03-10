@@ -1,5 +1,5 @@
-#ifndef ENCRYPTIONANDDECRYPTION_VIGENERE_H
-#define ENCRYPTIONANDDECRYPTION_VIGENERE_H
+#ifndef CRYPTOSPHERE_VIGENERE_H
+#define CRYPTOSPHERE_VIGENERE_H
 
 void vigenere_cipher(char text[], char key[]);
 void vigenere_decipher(char text[], char key[]);
